@@ -1,9 +1,9 @@
 const toDoList = document.querySelector('#to-do-list');
 
 function addNewTodo(text) {
-    const add = document.createElement('li');
-    add.textContent = text;
-    toDoList.prepend(add);
+    const A = document.createElement('li');
+    A.textContent = text;
+    toDoList.prepend(A);
 }
 
 // 테스트 코드
