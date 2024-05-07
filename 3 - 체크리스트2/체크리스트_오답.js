@@ -13,7 +13,7 @@ btn.addEventListener('click', updateToDo);
 
 //버튼이 아니라 item으로 해줘야 하고 for문을 사용하여 반복문으로 한 번에 처리할 수 있음
 //items[i].addEventListener('click', updateToDo);
-//무엇을.추가한다.('뭘 받으면', ~ );
+//무엇에다가.추가한다.('뭘 받으면', ~ );
 
 // 테스트 코드
 items[3].removeEventListener('click', updateToDo);
