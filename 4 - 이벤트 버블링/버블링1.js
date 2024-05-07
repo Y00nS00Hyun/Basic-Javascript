@@ -15,6 +15,6 @@ for (let child of toDoList.children) {                    //각각의 li에 이�
 
 //ul도 버블링 되고, body도 버블링 됐지만 출력하라고 써놓지 않아서 출력이 안되는거지 버블링은 했음
 
-{/*정답: <li class="item">자바스크립트 공부하기</li>
- <div id="main">...</div> */}
+/*정답: <li class="item">자바스크립트 공부하기</li>
+ <div id="main">...</div> */
 
