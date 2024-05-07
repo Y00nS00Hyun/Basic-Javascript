@@ -3,8 +3,11 @@ const toDoList = document.querySelector('#to-do-list');
 function addNewTodo(text) {
     const A = document.createElement('li');
     A.textContent = text;
-    toDoList.prepend(A);
+    toDoList.append(A);
 }
+
+//append: 마지막에 추가
+//prepend: 처음에 추가
 
 // 테스트 코드
 addNewTodo('자바스크립트 공부하기');
