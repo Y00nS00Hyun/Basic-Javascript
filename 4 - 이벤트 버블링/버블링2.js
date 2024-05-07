@@ -3,7 +3,7 @@
 1
 function someHander(event) {
     event.stopPropagation();
-}                               // 정~~~~~~~~~~~~~~~~~~~~~~~~답
+}                               // 정~~~~~~~~~~~~~~~~~~~~~~~~답!
 
 
 2
