@@ -28,6 +28,8 @@ function printEvent() {
 btn.addEventListener('click', printEvent);
 btn.removeEventListener('click', printEvent);
 
-// 정답: <button id="btn">Click!</button>
-// Hi!
-// click!
+/*정답:
+<button id="btn">Click!</button>
+Hi!
+click!
+*/
