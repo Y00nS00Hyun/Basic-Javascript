@@ -20,6 +20,7 @@ function flagUp(e) {
 
 // 2. 마우스 오른쪽 버튼 클릭시 나타나는 메뉴창을 막아주세요 
 document.addEventListener('contextmenu', function (event) {
+    j
     event.preventDefault();
 });
 
