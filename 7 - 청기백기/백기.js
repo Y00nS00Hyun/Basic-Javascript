@@ -8,10 +8,10 @@ function reset() {
 // 1. flagUp 함수를 완성해 주세요
 function flagUp(e) {
     if (e.button === 0) {
-        e.target.flagBlue.add('up');
+        flagBlue.classList.add('up');
     }
     else if (e.button === 2) {
-        e.target.flagWhite.add('up');
+        flagWhite.classList.add('up');
     }
 
     // 500 밀리초 뒤에 reset함수를 실행
@@ -20,7 +20,6 @@ function flagUp(e) {
 
 // 2. 마우스 오른쪽 버튼 클릭시 나타나는 메뉴창을 막아주세요 
 document.addEventListener('contextmenu', function (event) {
-    j
     event.preventDefault();
 });
 
