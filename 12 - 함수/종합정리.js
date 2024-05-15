@@ -72,6 +72,87 @@ printAruguments('Soohyun', 'Wonbin', 'Winter');
 
 
 //연습 2
-function whatArguments() {
-    console.log('')
+function what() {
+    console.log(arguments);
 }
+
+what('a', 'b', 'c');
+
+// Rest Parameter -> 배열
+function wow(...drink) {
+    for (const name of drink) {
+        console.log(name);
+    }
+}
+
+wow('coke', 'fanta', 'saida', 'milkis');
+
+
+//연습 3
+function printFish(...fish) {
+    for (const fishname of fish) {
+        console.log(fishname);
+    }
+}
+printFish('고등어', '갈치', '멸치');
+
+
+//순위 매기기
+function prize(a, b, ...c) {
+    console.log(`1등: ${a}`);
+    console.log(`2등: ${b}`);
+    console.log(`그 외: ${c}`);
+}
+
+prize('참외', '포도', '복숭아', '메론', '체리');
+
+
+//Arrow Function
+const getx2 = (number) => {
+    console.log(number * 2);
+};
+
+getx2(5);
+
+
+// 콜백
+// myBtn.addEventListener('click', () => {
+//     console.log('Click~')
+// })
+
+
+//
+const getx3 = number => console.log(number * 3);
+
+getx3(5);
+
+
+//
+const sum = (a, b, c) => console.log(a + b + c);
+sum(1, 2, 3);
+
+
+//this -> 호출한 객체를 가리킴
+const tree = {
+    local: '우장산',
+    treeName: '소나무',
+    getFullTree: function () {
+        return `${this.local} ${this.treeName}`
+    },
+};
+
+console.log(tree.getFullTree());
+
+
+//연습 3
+const character = {
+    characterName: 'Soohyun',
+    ability: 'fly',
+    age: '22',
+    want: 'cute',
+    function: function soohyunIntroduce() {
+        return `${this.characterName} ${this.ability} ${this.age} ${this.want}`
+    }
+}
+
+console.log(character.function());
