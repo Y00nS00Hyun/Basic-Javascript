@@ -30,7 +30,6 @@ courseC.printTitle();
 
 
 
-
 //2
 
 const getFullName = () => `${this.firstName} ${this.lastName}`;
