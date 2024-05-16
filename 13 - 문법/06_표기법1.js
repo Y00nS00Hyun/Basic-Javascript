@@ -4,10 +4,10 @@
 const title = '컴퓨터 개론';
 const lessonCount = 87;
 
-const course = {
-    title;
-    lessonCount;
-};
+// const course = {
+//     title;
+//     lessonCount;
+// };
 //세미콜론 때문에 안됨
 
 
@@ -48,10 +48,10 @@ const name = {
 const username = {
     name: 'codeit',
     birth: 2017,
-    () => {
-    const date = new Date();
-    return date.getFullYear() - this.birth + 1;
-},
-  };
+    //     () => {
+    //     const date = new Date();
+    //     return date.getFullYear() - this.birth + 1;
+    // },
+};
 
 //this랑 arrow 같이 안씀
