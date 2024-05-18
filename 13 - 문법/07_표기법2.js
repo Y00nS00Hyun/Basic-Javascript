@@ -1,17 +1,17 @@
 //틀린거 고르시오
 
-const propertyName = 'birth';
-const getJob = () => 'job';
+const propertyName = "birth";
+const getJob = () => "job";
 
 //[표현식]: 값
 const codeit = {
-    ['topic' + 'Name']: 'Modern JavaScript',
-    [propertyName]: 2017,
-    [getJob()]: '프로그래밍 강사',
+  ["topic" + "Name"]: "Modern JavaScript",
+  [propertyName]: 2017,
+  [getJob()]: "프로그래밍 강사",
 };
 
 //1
-codeit.topicName;
+console.log(codeit.topicName);
 
 //2
 codeit[propertyName];
@@ -27,6 +27,3 @@ codeit.propertyName;
 
 //6
 codeit.birth;
-
-
-
