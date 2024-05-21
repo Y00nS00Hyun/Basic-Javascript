@@ -6,6 +6,6 @@ const answer = quiz.map(function (a, i) {
 
 console.log(answer);
 
-//수현 공작소
+//수현 공작소~!
 const answer2 = quiz.map((a, i) => a[i]);
 console.log(answer2);
