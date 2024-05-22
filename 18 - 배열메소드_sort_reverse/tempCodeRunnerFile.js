@@ -1,0 +1,1 @@
+console.log(numbers[i] + numbers[i]);
