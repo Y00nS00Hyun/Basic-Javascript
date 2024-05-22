@@ -1,0 +1,31 @@
+  여기서는
+  
+  function checkSpy(team) {
+    const no = team.every(function(p){
+    return p.members=='스파이'
+    })
+  }
+  
+  이게 아니라
+  
+  function checkSpy(team) {
+    const no = team.members.every(function(p){
+    return p=='스파이'
+    })
+  }
+  
+  이거라고 했으면서
+
+  
+  
+  const totalCareer = data.month.reduce((acc, el) => {
+    return acc + el;
+  }, 0);
+  
+  이게 아니라
+  
+  const totalCareer = data.reduce((acc, el) => {
+    return acc + el.month;
+  }, 0);
+  
+  이거인 이유
