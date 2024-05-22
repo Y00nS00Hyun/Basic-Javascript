@@ -1,5 +1,5 @@
-  여기서는
-  
+  16 - 이중 스파이에서는
+
   function checkSpy(team) {
     const no = team.every(function(p){
     return p.members=='스파이'
@@ -15,9 +15,13 @@
   }
   
   이거라고 했으면서
+    
+  // every는 배열을 다루는 문법인데 team이 객체이고, team.members가 다루고자 하는 배열이기 때문이다
+  // 이중 배열이라서 두 번 들어가줘야함
+  
+  17 - 경력 계산기에서는
 
-  
-  
+
   const totalCareer = data.month.reduce((acc, el) => {
     return acc + el;
   }, 0);
@@ -29,3 +33,5 @@
   }, 0);
   
   이거인 이유
+
+  // data가 배열이기 때문이다
