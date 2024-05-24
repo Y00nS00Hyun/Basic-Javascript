@@ -1,0 +1,37 @@
+export 하는 방법
+1. export const title = 'Kitty soohyun';
+2. export {printer, arrPrinter};
+
+이름 변경하기
+export {printer as kitty, arrPrinter};
+
+default
+const title = 'Kitty soohyun';
+export default title;
+
+여러 개를 한 번에 default하는 것도 가능
+export default {title, printer, arrPrinter};
+
+
+import 하는 방법
+import {title, data} from './kitty.js';
+
+이름 변경하기
+import {printer as kitty, arrPrinter} from './kitty.js';
+
+와일드 카드
+import * as kitty from './kitty.js';
+
+default 축약형
+import kitty from './kitty.js';
+
+이런 것도 가능
+// (modules.js)
+import module1 from './sub-module1.js';
+import module2 from './sub-module2.js';
+import module3 from './sub-module3.js';
+
+export { module1, module2, module3 };
+
+// index.js
+import { module1, module2, module3 } from 'modules.js';
