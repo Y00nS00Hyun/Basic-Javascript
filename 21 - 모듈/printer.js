@@ -1,5 +1,7 @@
-export const title = "Hi, I'm Soohyun";
+const title = "Hi, I'm Soohyun";
 
-export function soohyunSay(value) {
+function soohyunSay(value) {
   console.log(value);
 }
+
+export { title, soohyunSay };
