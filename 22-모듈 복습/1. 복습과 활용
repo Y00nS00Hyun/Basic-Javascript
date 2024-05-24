@@ -25,7 +25,7 @@ import * as kitty from './kitty.js';
 default 축약형
 import kitty from './kitty.js';
 
-이런 것도 가능
+default 이런 것도 가능
 // (modules.js)
 import module1 from './sub-module1.js';
 import module2 from './sub-module2.js';
